@@ -1,0 +1,9 @@
+node_modules/
+client/dist/
+mongo-data/
+server/uploads/
+tmp/
+*.log
+.env
+.DS_Store
+Thumbs.db
