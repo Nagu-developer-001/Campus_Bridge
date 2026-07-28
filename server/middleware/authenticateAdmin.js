@@ -15,7 +15,7 @@ export async function authenticateAdmin(req, res, next) {
     if (!admin) {
       return res.status(401).json({ message: "Admin account is inactive or unavailable" });
     }
-
+    console.log("Admin authenticated:", admin);
     req.admin = admin;
     next();
   } catch (error) {
